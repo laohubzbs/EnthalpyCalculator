@@ -75,4 +75,8 @@ public class BondEnergies {
         bond_energies.put("C-N", 213.0);
     }
 
+    public double getBond(String str) {
+        return bond_energies.get(str);
+    }
+
 }
