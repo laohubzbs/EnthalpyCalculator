@@ -7,13 +7,19 @@ public class ScanningIterator implements Iterator<String> {
 	private int nowIndex;
 	private int strL;
 	private String str1;
-	
-	public ScanningIterator(String str1) {
-		this.str1 = str1;
+
+	public ScanningIterator(String str) {
+		str1 = str;
 		strL = this.str1.length();
 		nowIndex = -1;
 	}
-	
+
+	public void setStr1(String str) {
+		str1 = str;
+		strL = str1.length();
+		nowIndex = -1;
+	}
+
 	@Override
 	public boolean hasNext() {
 		if(nowIndex<(strL-1)) {
