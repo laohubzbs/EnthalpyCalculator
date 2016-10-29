@@ -1,4 +1,4 @@
-package Combust;
+package combust;
 
 /**
  * Created by bazaboi on 10/29/16.
