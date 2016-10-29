@@ -14,9 +14,12 @@ public class BondParser {
 		return input;
 	}
 	private void parseString(String str) {
-		
+		//great
 	}
 	public String[] getBonds() {
 		return null;
+	}
+	private void testMethod() {
+		//i do nothing
 	}
 }
